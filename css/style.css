@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 200px 0;
+    height: 1000px;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(17, 89, 197, 0.5);
+    z-index: 100;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    column-gap: 30px;
+    font-size: 20px;
+    margin-left: 456px;
+}
+
+.header__nav img {
+    width: 100px;
+    opacity: 1;
+    background-color: unset;
+}
+
+.nav li a {
+    color: rgb(13, 10, 10);
+    font-weight: bold;
+}
+
+
+
+
+
+/* /////////////main////////////////////////// */
+
+
+#main {
+    background-image: url('https://mrcotton.ru/upload/iblock/24b/24bd1d5d0d6b6cdbdac9aeccd183ab28.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100vh;
+    width: 100%;
+}
+
+.main__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(20, 20, 20);
+}
+
+h1{
+    font-size: 50px;
+}
+
+.main__wrap p {
+    font-size: 30px;
+    width: 60%;
+    margin: 30px 0;
+}
+
+.main__wrap button {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* ///////////////////////////////////////////// */
+
+
+
+.contact_info{
+    display: flex;
+    margin: 0 auto;
+    color: black;
+}
+
+
+
+.link a{
+    color: black;
+}
+.contact_info div:hover a{
+    color:rgb(68, 10, 162);
+}
+
+.col-6 h2{
+    display: flex;
+}
+
+.logo {
+    background-color: transparent;
+  }
+  

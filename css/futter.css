@@ -1,0 +1,40 @@
+#futter{
+    padding: 50px 0;
+    background: #34547A;
+}
+
+.futterContainer {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.futter__col-6 h3 {
+    text-align: center;
+    color: #070606;
+    font-size: 21px;
+    font-weight: 500;
+    
+}
+
+.futter__col-6 p {
+    text-align: center;
+    color: #0f0e0e;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+
+.futter__col-6 .vk{
+    width: 70%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.futter__col-6 img{ 
+    width: 70px;
+    height: 70px;
+}

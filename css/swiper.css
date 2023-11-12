@@ -1,0 +1,165 @@
+
+#swiper{
+    padding: 150px 0;
+}
+
+
+#swiper .swiper{
+    height: 600px;
+}
+
+
+#swiper .swiper-slide{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-wrapper img{
+    width: 50px;
+    height: 20px;
+}
+
+#swiper .swiper-slide:nth-child(1){
+    background-image: url(./img/photo_20_2023-11-06_12-25-38.jpg);
+    color: white;
+    font-style: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#swiper .swiper-slide:nth-child(2){
+    background-image:url(./img/photo_27_2023-11-06_12-25-38.jpg); 
+    
+   
+}
+
+
+/* #maswiperin .swiper-slide:nth-child(3){
+    background-image:  url(./img/photo_29_2023-11-06_12-25-38.jpg); 
+} */
+
+#swiper .swiper-slide:nth-child(3){
+    background-image: url(./img/photo_14_2023-11-06_12-25-38.jpg);
+}
+
+#swiper .swiper-slide:nth-child(4){
+    background-image: url(./img/photo_29_2023-11-06_12-25-38.jpg);
+}
+
+
+#swiper .swiper-slide:nth-child(5){
+    background-image: url(./img/photo_31_2023-11-06_12-25-38.jpg);
+}
+
+#swiper .swiper-slide:nth-child(6){
+    background-image: url(./img/photo_16_2023-11-06_12-25-38.jpg);
+}
+
+/* ////////////////////////////////////////////////////// */
+
+
+.swiper-container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+#swiper2{
+    padding: 150px 0;
+    height: 1000px;
+}
+
+
+.swiper-wrapper2 img{
+    width: 50px;
+    height: 20px;
+}
+
+#swiper2 .swiper-slide{
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#swiper2 .swiper-slide:nth-child(1){
+    background-image: url(./img/photo_20_2023-11-06_12-25-38.jpg);
+    height: 800px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#swiper2 .swiper-slide:nth-child(2){
+    background-image: url(./img/photo_2023-11-06_10-57-59.jpg);
+}
+
+#swiper2 .swiper-slide:nth-child(2){
+    background-image: url(./img/photo_2023-11-06_10-57-59.jpg);
+}
+
+#swiper2 .swiper-slide:nth-child(3){
+    background-image: url(./img/photo_2023-11-06_12-24-52.jpg);
+}
+
+
+
+#swiper2 .swiper-slide:nth-child(4){
+    background-image: url(./img/photo_32_2023-11-06_12-25-38.jpg);
+}
+
+
+#swiper2 .swiper-slide:nth-child(5){
+    background-image: url(./img/photo_29_2023-11-06_12-25-38.jpg);
+}   
+
+#swiper .swiper-button-next,
+#swiper .swiper-button-prev {
+    background-image: url('./img/pikachu.png');
+}
+
+
+#swiper2 .swiper-button-next,
+#swiper2 .swiper-button-prev {
+    background-image: url('./img/pikachu.png');
+}
+
+
+#swiper .swiper-pagination-bullet-active {
+    background-color: #0a0909;
+}
+
+
+#swiper .swiper-button-next:after,
+#swiper .swiper-button-prev:after {
+    content: none;
+}
+
+#swiper .swiper-button-next,
+#swiper .swiper-button-prev {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+#swiper2 .swiper-button-next:after,
+#swiper2 .swiper-button-prev:after {
+    content: none;
+}
+
+#swiper2 .swiper-button-next,
+#swiper2 .swiper-button-prev {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}

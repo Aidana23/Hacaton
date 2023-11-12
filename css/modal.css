@@ -1,0 +1,165 @@
+/* .modalBackdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.modalBackdropActive{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background: #d8d6d6;
+    width: 50%;
+    height: 70%;
+    scale: 0;
+    transition: .5s;
+}
+
+.modalActive {
+    scale: 1;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    padding: 0 10px;
+    background-color: red;
+} 
+
+ .modalContent {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    row-gap: 10px;
+    margin: 0 auto; 
+    width: 50%;
+    height: 90%;
+}
+
+.modalCloseButton {
+    cursor: pointer;
+}
+
+.hideContent {
+    display: none;
+}
+
+
+
+.input{
+    padding: 18px;
+    background: white;
+    width: 45%;
+  }
+
+
+  .form .sumbit{
+    padding: 20px 19px;
+    display: flex;
+    margin: 0 auto;
+    background:  #34547A;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 164.063%; 
+    letter-spacing: 2.1px;
+  } */
+
+
+
+
+  .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+ }
+ 
+
+ .main__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #171414;
+    margin-right: auto;
+ }
+
+ 
+ .main__wrap button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(61, 106, 222);
+    transition: all 0.3s ease 0s;
+ }
+
+ 
+.main__wrap button:hover {
+    background-color: rgb(49, 187, 81);
+    color: #fff;
+ }
+
+
+
+ 
+ .modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 500px;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    position: relative;
+ }
+ 
+ .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ 
+ .btn__apply {
+    background-color: rgb(127, 149, 18);
+    color: white;
+    margin: 10px 0 0 0;
+    padding: 5px 15px;
+    transition: all 0.3s ease 0s;
+    border: none;
+ }
+ 
+ .btn__apply:hover {
+    background-color: rgb(197, 230, 32);
+    color: black;
+ }
+ 

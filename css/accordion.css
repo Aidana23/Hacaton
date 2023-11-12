@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.body{
+    height: 150vh;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-4 {
+    width: 33.3333%;
+    padding: 15px 15px;
+}
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+/* /////////////////////////////////////////////////// */
+
+
+.accordion__col-6{
+    display: flex;
+    overflow: hidden;
+    padding: 10px 20px;
+    max-height: 0;
+    transition: 1s;
+}
+
+
+.accordion__col-6 img{
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+
+}
+
+.accordion__col-6 p{
+    padding: 10px;
+    right: 90px;
+}
+
+.wrap2.accordion__activ .accordion__col-6{
+    max-height: 400px;
+    transition: 1s;
+
+}
+
+
+
+.wrap2.accordion__activ .plus{
+    transform: rotate(45deg);
+}
+
+
+/* ///////////////// */
+
+#accordionSection{
+    /* padding: 100px 0; */
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv5_-ZrAj7qNjSzAMc2hfYuLvxjFOhv5oBlA&usqp=CAU); */
+    color: rgb(13, 12, 12);
+}
+
+
+.plus{
+    width: 30px;
+    height: 30px;
+    transition: .3s;
+}
+
+
+.accordion__name{
+    background-color: rgb(44, 162, 202);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accordion__name p{
+    font-size: 20px;
+}
+
+.accordion__content{
+    display: flex;
+    overflow: hidden;
+    padding: 10px 20px;
+    max-height: 0;
+    transition: 1s;
+}
+
+.accordion__content img{
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+
+}
+
+.accordion__content p{
+    padding: 10px;
+    right: 90px;
+}
+
+/* //////////////////////////////////////// */
+
+.accordion__wrap.accordion__active .accordion__content{
+    max-height: 400px;
+    transition: 1s;
+
+}
+
+
+
+.accordion__wrap.accordion__active .plus{
+    transform: rotate(45deg);
+}

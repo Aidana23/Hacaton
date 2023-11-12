@@ -1,0 +1,81 @@
+.catalogContainer {
+    display: flex;
+  }
+  
+  .productCatalog {
+    width: 30%; /* Ширина каталога товаров */
+    cursor: pointer;
+    height: 100%;
+    max-height: calc(100vh - 280px);
+    flex-wrap: nowrap;
+    opacity: 1;
+  }
+  
+  .selectedProduct {
+    width: 70%; /* Ширина выбранного товара */
+  }
+  
+  .selectedProduct img {
+    max-width: 100%; /* Устанавливаем максимальную ширину для изображений выбранного товара */
+  }
+  
+  .productCatalog h1{
+    display: flex;
+    margin: 0 auto;
+  }
+  /* ................... */
+
+
+  .productsContainer {
+    display: none;
+  }
+  
+  .product {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+
+  .title2{
+    text-align: center;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 60px;
+    /* background-color: rgb(222, 61, 123); */
+    transition: all 0.3s ease 0s; 
+
+  }
+
+  .productCatalog h3{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    /* background-color: rgb(222, 61, 123); */
+    transition: all 0.3s ease 0s; 
+  }
+
+  .productCatalog:hover {
+    color: #fff;
+ }
+
+
+
+  #productDetails {
+    display: none;
+    display: block;  
+      
+  }
+  
+
+  @media (max-width:768px){
+    .productCatalog{ width: 95%;}
+  
+    .productCatalog:hover{ transform: scale(1);}
+  }
